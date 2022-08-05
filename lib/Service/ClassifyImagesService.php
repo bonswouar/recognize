@@ -109,6 +109,6 @@ class ClassifyImagesService {
 			(isset($unprocessedLandmarksImages) && count($unprocessedLandmarksImages) > 0) ||
 			(isset($unprocessedGeoImages) && count($unprocessedGeoImages) > 0) ||
 			(isset($unprocessedFaceImages) && count($unprocessedFaceImages) > 0)
-			;
+		;
 	}
 }
